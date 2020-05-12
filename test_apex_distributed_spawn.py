@@ -110,7 +110,7 @@ def train(gpu, args):
 
     # preamble
     set_cuda(deterministic=True)
-    set_seed(seed=rank)
+    set_seed(seed=0)
     set_gpu(gpu)
 
 
