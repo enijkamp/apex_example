@@ -113,7 +113,6 @@ def train(gpu, args):
     set_seed(seed=0)
     set_gpu(gpu)
 
-
     # model
     model = ConvNet().cuda(gpu)
     model.cuda(gpu)
