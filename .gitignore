@@ -1,0 +1,5 @@
+.vscode
+.history
+*.pyc
+__pycache__
+data
