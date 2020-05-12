@@ -45,7 +45,7 @@ def parse_args():
     parser.add_argument('--apex_enabled', default=True, type=bool, help='enable apex')
     parser.add_argument('--apex_opt_level', default='O2', type=str, help='apex optimization level (O0, O1, O2, O3)')
 
-    parser.add_argument('--epochs', default=200, type=int, metavar='N', help='number of total epochs to run')
+    parser.add_argument('--epochs', default=10, type=int, metavar='N', help='number of total epochs to run')
     parser.add_argument('--batch_size', default=100, type=int, metavar='N', help='batch size')
     return parser.parse_args()
 
